@@ -1,6 +1,6 @@
 # Firebase
 
-#Ejemplo:
+# Ejemplo:
 
 
 require_once '../vendor/autoload.php';
