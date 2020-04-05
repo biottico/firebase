@@ -21,6 +21,6 @@ $config = [
 use biottico\firebase\FirestoreQuery;
 
 $query = new FirestoreQuery($config);
-$data = $query->getDocument("COLLECTION", "vino");
+$data = $query->getDocument("COLLECTION", "DOCUMENT_ID");
 
 var_dump($data);
