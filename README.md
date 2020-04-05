@@ -1,9 +1,7 @@
-# Firestore
-# firebase
+# Firebase
 
-Ejemplo:
+#Ejemplo:
 
-<?php
 
 require_once '../vendor/autoload.php';
 
