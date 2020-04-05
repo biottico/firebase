@@ -1,0 +1,22 @@
+{
+    "name": "biottico/firebase",
+    "description": "Connect to firestore",
+    "type": "library",
+    "keywords": ["firestore", "firebase"],
+    "require": {
+        "google/cloud": "^0.130.0",
+        "google/cloud-storage": "^1.20",
+        "grpc/grpc": "^1.27"
+    },
+    "autoload": {
+        "psr-4": {
+            "biottico\\firebase\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gustavo biott",
+            "email": "gustavo.biott@mobisoft.com.ar"
+        }
+    ]
+}
