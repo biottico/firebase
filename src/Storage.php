@@ -5,7 +5,7 @@ namespace biottico\firebase;
 use Google\Cloud\Storage\StorageClient;
 
 /**
- * Description of VinitusST
+ * Description of Storage
  *
  * @author biotticos
  */
@@ -31,7 +31,7 @@ class Storage extends Firebase {
      */
     public function connect() {
         $keyFile = __DIR__ . "/" . $this->getKeyFile();
-        $this->debug("VinitusST->connect", "keyFile: $keyFile");
+        $this->debug("Storage->connect", "keyFile: $keyFile");
         $this->storage = new StorageClient([
             'keyFile' => json_decode(file_get_contents($keyFile), true)
         ]);
@@ -97,7 +97,7 @@ class Storage extends Firebase {
         ];
         $this->bucket->upload(fopen($file, 'r'), $options);
         $url = $url . $name . "?alt=media&token=$token";
-        $this->debug("VinitusST->upload", "url:$url");
+        $this->debug("Storage->upload", "url:$url");
         return $url;
     }
 
