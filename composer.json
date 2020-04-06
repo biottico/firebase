@@ -1,8 +1,9 @@
 {
     "name": "biottico/firebase",
-    "description": "Connect to firestore",
+    "description": "Connect to firebase",
     "type": "library",
     "keywords": ["firestore", "firebase"],
+    "homepage": "https://github.com/biottico/firebase",
     "require": {
         "google/cloud": "^0.130.0",
         "google/cloud-storage": "^1.20",
@@ -16,7 +17,8 @@
     "authors": [
         {
             "name": "gustavo biott",
-            "email": "gustavo.biott@mobisoft.com.ar"
+            "email": "gustavo@biott.com.ar"
         }
-    ]
+    ],
+    "minimum-stability": "stable"
 }
