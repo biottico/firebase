@@ -4,6 +4,7 @@
     "type": "library",
     "keywords": ["firestore", "firebase"],
     "homepage": "https://github.com/biottico/firebase",
+    "version": "1.0.0",
     "require": {
         "google/cloud": "^0.130.0",
         "google/cloud-storage": "^1.20",
